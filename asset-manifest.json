@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/github.io/epk/static/css/main.0f64b447.css",
+    "main.js": "/github.io/epk/static/js/main.c19ddf64.js",
+    "static/js/453.2c6adea3.chunk.js": "/github.io/epk/static/js/453.2c6adea3.chunk.js",
+    "static/media/RIZ08472.jpg": "/github.io/epk/static/media/RIZ08472.d43b9b64cba443da75ae.jpg",
+    "static/media/GowunDodum-Regular.ttf": "/github.io/epk/static/media/GowunDodum-Regular.dfb67e2d7072fcac8dc5.ttf",
+    "static/media/sax pattern.png": "/github.io/epk/static/media/sax pattern.764beeaa683742bd6c61.png",
+    "index.html": "/github.io/epk/index.html",
+    "main.0f64b447.css.map": "/github.io/epk/static/css/main.0f64b447.css.map",
+    "main.c19ddf64.js.map": "/github.io/epk/static/js/main.c19ddf64.js.map",
+    "453.2c6adea3.chunk.js.map": "/github.io/epk/static/js/453.2c6adea3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f64b447.css",
+    "static/js/main.c19ddf64.js"
+  ]
+}
