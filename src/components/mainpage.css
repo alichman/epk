@@ -1,0 +1,36 @@
+.mainPage {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(9, 12, 23);
+    overflow: hidden;
+    background-image: url('../assets/sax\ pattern.png');
+
+}
+
+.mainRow {
+    display: flex;
+    flex-direction: row;
+    align-items: space;
+    justify-content: space-between;
+}
+
+.mainImage {
+    height: 100vh;
+}
+
+.textDiv {
+    min-width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1 {
+        font-size:80px;
+        margin: 0 0 0 200px;
+    }
+    h2 {
+        font-size: 40px;
+        margin: 0;
+    }
+}

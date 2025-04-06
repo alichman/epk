@@ -1,7 +1,7 @@
 {
   "name": "epk",
   "version": "0.1.0",
-  "homepage": "https://alichman/github.io/epk",
+  "homepage": "https://alichman.github.io/epk",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
