@@ -5,9 +5,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Webkit browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #09003e;        /* Thumb color */
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #210303;      /* Track color */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin; /* or 'auto' or 'none' */
+  scrollbar-color: #3c5db6 #09003e;
 }

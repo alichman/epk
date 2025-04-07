@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  
+  background-color: rgb(9, 12, 23);
+  background-image: url('./assets/sax\ pattern.png');
 }
 
 @font-face {
@@ -11,3 +14,23 @@ h1, h2, p {
   color: white;
   font-family: gowun, serif;
 } 
+
+.navbar-h {
+  margin-left: 20px;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+}
+
+.navbar-v {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navAndContent-v {
+  display: flex;
+  flex-direction: row-reverse;
+}
