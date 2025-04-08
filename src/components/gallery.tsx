@@ -33,15 +33,16 @@ const mediaFiles = importMedia();
 
 export default function () {
     const upperSF = useHorizontalScroll();
+    const lowerSF = useHorizontalScroll();
 
-    return <div className='galleryMain' ref={upperSF as Ref<HTMLDivElement>}>
+    return <div className='galleryMain'>
         <h1>Gallery</h1>
-        <div className='galleryGrid'>
+        <div className='galleryGrid' ref={upperSF}>
             {mediaFiles.filter((v) => v.type === 'image').map((file, index) =>
                 <img key={index} src={file.src} alt={`media-${index}`} />
             )}   
         </div>
-        <div className='galleryGrid'>
+        <div className='galleryGrid' ref={lowerSF}>
         {videoLinks.map((url) => <iframe width="420" height="315" src={url}/>)}
         </div>
     </div>
