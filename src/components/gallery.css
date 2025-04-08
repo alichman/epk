@@ -1,0 +1,25 @@
+.galleryMain {
+    height: 90vh;
+    width: 100vw;
+}
+
+.galleryGrid {
+    margin: 20px;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 35vh;
+
+    img {
+        height: 100%;
+        margin-left: 20px;
+    }
+    video, iframe{
+        height: 100%;
+        width: 62vh
+    }
+
+    h1 {
+        top: 0;
+    }
+}

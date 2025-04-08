@@ -1,32 +1,18 @@
-import React, { createRef, Ref, useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import './App.css';
 import MainPage from './components/mainpage';
 import Button from './components/button';
+import Gallery from './components/gallery';
 
 function App() {
   const [cPageIndex, setCPageIndex] = useState(0);
-  const [isNavVertical, setNavVertical] = useState(false);
-  const currentPage = useMemo(() => [<MainPage/>][cPageIndex], [cPageIndex]);
-
-  useEffect(() => {
-  
-    const handleResize = () => {
-      const width = document.body.getBoundingClientRect().width;
-      setNavVertical(width < 2000);
-    }
-    
-    window.addEventListener('resize', handleResize);
-    
-    return () => {
-     window.removeEventListener('resize', handleResize);
-    };
-  }, []);
+  const currentPage = useMemo(() => [<MainPage/>, <Gallery/>][cPageIndex], [cPageIndex]);
 
   return (
     <div className="App">
-      <div className= {isNavVertical ? 'navAndContent-v' : 'navAndContent-h'} >
+      <div className= {'navAndContent-h'} >
         {currentPage}
-        <div className={isNavVertical ? 'navbar-v' : 'navbar-h'}>
+        <div className={'navbar-h'}>
           <Button text='Bio' currentIndex={cPageIndex} stateSetter={setCPageIndex} buttonIndex={0}/>
           <Button text='Gallery' currentIndex={cPageIndex} stateSetter={setCPageIndex} buttonIndex={1}/>
           <Button text='Music' currentIndex={cPageIndex} stateSetter={setCPageIndex} buttonIndex={2}/>

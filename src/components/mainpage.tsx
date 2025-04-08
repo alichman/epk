@@ -2,7 +2,7 @@ import React, { useCallback, useState } from 'react'
 import './mainpage.css'
 import '../App.css'
 
-import mainImage from '../assets/RIZ08472.jpg'
+import mainImage from '../assets/gallery/RIZ08472.jpg'
 import Button, { NavlessButton } from './button'
 
 export default function MainPage () {
@@ -35,7 +35,7 @@ export default function MainPage () {
                     orchestras, military marching bands, and eventually with a local russian-rock band in Richmond Hill by the name of 
                     KingWest, the collection of instruments under his belt, both string and horn, developed alongside his love of 
                     musical composition. Andrew draws from this diverse experience to mesh various musical styles into a unique 
-                    blend of cultures, glued together with swing and vibes.
+                    blend of cultures, glued together with swing and vibes. Currently, Andrew is the saxophonist for Guelph-based band Whatever You Say.
                 </p>
             </div>}
             <img src={mainImage} className='mainImage'/>
