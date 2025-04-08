@@ -4,6 +4,7 @@ import MainPage from './components/mainpage';
 import Button from './components/button';
 import Gallery from './components/gallery';
 import Music from './components/music';
+import Placeholder from './components/placeholder';
 
 function App() {
   const [cPageIndex, setCPageIndex] = useState(0);
@@ -12,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <div className= {'navAndContent-h'} >
-        {currentPage}
+        {currentPage} ?? <Placeholder/>
         <div className={'navbar-h'}>
           <Button text='Bio' currentIndex={cPageIndex} stateSetter={setCPageIndex} buttonIndex={0}/>
           <Button text='Gallery' currentIndex={cPageIndex} stateSetter={setCPageIndex} buttonIndex={1}/>
