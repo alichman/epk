@@ -19,7 +19,7 @@ export default function MainPage () {
                     <h2>Electronic Press Kit</h2>
                     {!fullBio && <p>
                         A pianist for 14 years, a saxophonist for 11, and a guitarist for 6, Andrew is a musician posessing a wide range
-                        of sound. He has performed as in settings varying from military marching bands to university indie bands.
+                        of sound. He has performed in settings varying from military marching bands to university indie bands.
                     </p>}
                     <NavlessButton text={fullBio ? '<- Short Bio':'Full Bio ->'} onPress={flipCallback}/>
                 </div>

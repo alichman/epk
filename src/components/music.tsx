@@ -59,7 +59,7 @@ const SoundCloudEmbed = () => {
   }
 
 export default function () {
-    return <div>
+    return <div className='musicMain'>
         <h1>Discography</h1>
         <div className='ytGrid'>
         {audioLinks.map((url) => <iframe width="420" height="315" src={url}/>)}

@@ -5,15 +5,17 @@ import Button from './components/button';
 import Gallery from './components/gallery';
 import Music from './components/music';
 import Placeholder from './components/placeholder';
+import Assets from './components/assets';
 
 function App() {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [cPageIndex, setCPageIndex] = useState(0);
-  const currentPage = useMemo(() => [<MainPage/>, <Gallery/>, <Music/>][cPageIndex], [cPageIndex]);
+  const currentPage = useMemo(() => [<MainPage/>, <Gallery/>, <Music/>, null, null, <Assets/>][cPageIndex], [cPageIndex]);
 
   return (
     <div className="App">
       <div className= {'navAndContent-h'} >
-        {currentPage} ?? <Placeholder/>
+        {currentPage ?? <Placeholder/>}
         <div className={'navbar-h'}>
           <Button text='Bio' currentIndex={cPageIndex} stateSetter={setCPageIndex} buttonIndex={0}/>
           <Button text='Gallery' currentIndex={cPageIndex} stateSetter={setCPageIndex} buttonIndex={1}/>

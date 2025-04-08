@@ -1,11 +1,24 @@
-.ytGrid {
-    margin: 20px;
+.musicMain {
+    height: 90vh;
+    width: 100vw;
+    justify-content: center;
+    align-content: center;
     display: flex;
-    height: 70vh;
+    flex-direction: column;
+
+    h1 {
+        font-size: 50px;
+    }
+}
+
+.ytGrid {
+    display: flex;
     width: 100vw;
     flex-wrap: wrap;
     overflow-y: scroll;
     justify-content: center;
+    justify-self: center;
+    align-items: center;
 
     iframe{
         height: 20vh;
