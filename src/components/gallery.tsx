@@ -39,6 +39,7 @@ const importMedia = (): MediaFile[] => {
 const mediaFiles = importMedia();
 
 export default function () {
+    
     return <div className='galleryMain'>
         <h1>Gallery</h1>
         <div className='galleryGrid'>
