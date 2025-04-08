@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/epk/static/css/main.e94146c7.css",
-    "main.js": "/epk/static/js/main.0f33c3f0.js",
+    "main.css": "/epk/static/css/main.9a1e6898.css",
+    "main.js": "/epk/static/js/main.72204a5c.js",
     "static/js/453.2c6adea3.chunk.js": "/epk/static/js/453.2c6adea3.chunk.js",
     "static/media/RIZ08487.jpg": "/epk/static/media/RIZ08487.c4ef6d0a5fd224590aea.jpg",
     "static/media/RIZ08450.jpg": "/epk/static/media/RIZ08450.e92c95ca87ac0acff019.jpg",
@@ -12,14 +12,15 @@
     "static/media/DSC1436.jpeg": "/epk/static/media/DSC1436.6ab7c2ceb1f9c8337cc1.jpeg",
     "static/media/DSC1420.jpeg": "/epk/static/media/DSC1420.86c1a4d1aa2d6818a0e5.jpeg",
     "static/media/DSC1429.jpeg": "/epk/static/media/DSC1429.d600d4f23c2ce1a6f044.jpeg",
+    "static/media/wys-stage-plot.png": "/epk/static/media/wys-stage-plot.4b0aa82e1331fe5df4a8.png",
     "static/media/sax pattern.png": "/epk/static/media/sax pattern.764beeaa683742bd6c61.png",
     "index.html": "/epk/index.html",
-    "main.e94146c7.css.map": "/epk/static/css/main.e94146c7.css.map",
-    "main.0f33c3f0.js.map": "/epk/static/js/main.0f33c3f0.js.map",
+    "main.9a1e6898.css.map": "/epk/static/css/main.9a1e6898.css.map",
+    "main.72204a5c.js.map": "/epk/static/js/main.72204a5c.js.map",
     "453.2c6adea3.chunk.js.map": "/epk/static/js/453.2c6adea3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e94146c7.css",
-    "static/js/main.0f33c3f0.js"
+    "static/css/main.9a1e6898.css",
+    "static/js/main.72204a5c.js"
   ]
 }
