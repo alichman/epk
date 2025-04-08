@@ -1,0 +1,18 @@
+.ytGrid {
+    margin: 20px;
+    display: flex;
+    height: 70vh;
+    width: 100vw;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    justify-content: center;
+
+    iframe{
+        height: 20vh;
+        width: 20vh;
+        min-width: 200px;
+        min-height: 200px;
+
+        margin: 20px;
+    }
+}

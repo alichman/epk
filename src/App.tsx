@@ -3,10 +3,11 @@ import './App.css';
 import MainPage from './components/mainpage';
 import Button from './components/button';
 import Gallery from './components/gallery';
+import Music from './components/music';
 
 function App() {
   const [cPageIndex, setCPageIndex] = useState(0);
-  const currentPage = useMemo(() => [<MainPage/>, <Gallery/>][cPageIndex], [cPageIndex]);
+  const currentPage = useMemo(() => [<MainPage/>, <Gallery/>, <Music/>][cPageIndex], [cPageIndex]);
 
   return (
     <div className="App">

@@ -8,14 +8,6 @@ const videoLinks = [
     "https://www.youtube.com/embed/vcFYGnL9fhU",
 ]
 
-const audioLinks =  [
-    'https://www.youtube.com/watch?v=9iMgZZf25eY',
-    'https://www.youtube.com/watch?v=EUoVZWAkPxM',
-    'https://www.youtube.com/watch?v=TVPk7zP4p0Q',
-    'https://www.youtube.com/watch?v=215odMInjPM',
-    'https://www.youtube.com/watch?v=EUoVZWAkPxM',
-]
-
 type MediaFile = {
     src: string;
     type: 'image' | 'video'
@@ -39,7 +31,7 @@ const importMedia = (): MediaFile[] => {
 const mediaFiles = importMedia();
 
 export default function () {
-    
+
     return <div className='galleryMain'>
         <h1>Gallery</h1>
         <div className='galleryGrid'>
@@ -48,7 +40,7 @@ export default function () {
             )}   
         </div>
         <div className='galleryGrid'>
-        {videoLinks.map((url, index) => <iframe width="420" height="315" src={url}/>)}
+        {videoLinks.map((url) => <iframe width="420" height="315" src={url}/>)}
         </div>
     </div>
 }
