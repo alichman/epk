@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { Ref } from 'react'
 import '../App.css'
 import './gallery.css'
+import { useHorizontalScroll } from '../useHorizontalScroll'
 
 const videoLinks = [
     'https://www.youtube.com/embed/AD6l7H4aQoc',
@@ -31,8 +32,9 @@ const importMedia = (): MediaFile[] => {
 const mediaFiles = importMedia();
 
 export default function () {
+    const upperSF = useHorizontalScroll();
 
-    return <div className='galleryMain'>
+    return <div className='galleryMain' ref={upperSF as Ref<HTMLDivElement>}>
         <h1>Gallery</h1>
         <div className='galleryGrid'>
             {mediaFiles.filter((v) => v.type === 'image').map((file, index) =>

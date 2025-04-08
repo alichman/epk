@@ -16,11 +16,10 @@ function App() {
         <div className={'navbar-h'}>
           <Button text='Bio' currentIndex={cPageIndex} stateSetter={setCPageIndex} buttonIndex={0}/>
           <Button text='Gallery' currentIndex={cPageIndex} stateSetter={setCPageIndex} buttonIndex={1}/>
-          <Button text='Music' currentIndex={cPageIndex} stateSetter={setCPageIndex} buttonIndex={2}/>
+          <Button text='Discography' currentIndex={cPageIndex} stateSetter={setCPageIndex} buttonIndex={2}/>
           <Button text='Upcoming Shows' currentIndex={cPageIndex} stateSetter={setCPageIndex} buttonIndex={3}/>
-          <Button text='Discography' currentIndex={cPageIndex} stateSetter={setCPageIndex} buttonIndex={4}/>
-          <Button text='Accolades and Press' currentIndex={cPageIndex} stateSetter={setCPageIndex} buttonIndex={5}/>
-          <Button text='Assets' currentIndex={cPageIndex} stateSetter={setCPageIndex} buttonIndex={6}/>
+          <Button text='Accolades and Press' currentIndex={cPageIndex} stateSetter={setCPageIndex} buttonIndex={4}/>
+          <Button text='Assets' currentIndex={cPageIndex} stateSetter={setCPageIndex} buttonIndex={5}/>
         </div>
       </div>
     </div>
