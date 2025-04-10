@@ -18,8 +18,9 @@ export default function MainPage () {
                     <h1>Andrew Lichmanov</h1>
                     <h2>Electronic Press Kit</h2>
                     {!fullBio && <p>
-                        A pianist for 14 years, a saxophonist for 11, and a guitarist for 6, Andrew is a musician posessing a wide range
+                        A pianist for 14 years, a saxophonist for 11, and a guitarist for 6, Andrew posesses a wide range
                         of sound. He has performed in settings varying from military marching bands to university indie bands.
+                        He now plays with Whatever You Say, a Guelph-based indie rock band.
                     </p>}
                     <NavlessButton text={fullBio ? '<- Short Bio':'Full Bio ->'} onPress={flipCallback}/>
                 </div>
