@@ -6,6 +6,7 @@ import Gallery from './components/gallery';
 import Music from './components/music';
 import Placeholder from './components/placeholder';
 import Assets from './components/assets';
+import Contact from './components/contact';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -25,6 +26,7 @@ function App() {
           <Button text='Assets' currentIndex={cPageIndex} stateSetter={setCPageIndex} buttonIndex={5}/>
         </div>
       </div>
+      <Contact/>
     </div>
   );
 }

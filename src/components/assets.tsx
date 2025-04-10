@@ -1,5 +1,4 @@
 import '../App.css'
-import './gallery.css'
 
 import stageplot from '../assets/wys-stage-plot.png'
 
