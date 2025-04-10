@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/epk/static/css/main.9a1e6898.css",
-    "main.js": "/epk/static/js/main.72204a5c.js",
+    "main.css": "/epk/static/css/main.16a27f92.css",
+    "main.js": "/epk/static/js/main.b5af36fb.js",
     "static/js/453.2c6adea3.chunk.js": "/epk/static/js/453.2c6adea3.chunk.js",
     "static/media/RIZ08487.jpg": "/epk/static/media/RIZ08487.c4ef6d0a5fd224590aea.jpg",
     "static/media/RIZ08450.jpg": "/epk/static/media/RIZ08450.e92c95ca87ac0acff019.jpg",
@@ -14,13 +14,16 @@
     "static/media/DSC1429.jpeg": "/epk/static/media/DSC1429.d600d4f23c2ce1a6f044.jpeg",
     "static/media/wys-stage-plot.png": "/epk/static/media/wys-stage-plot.4b0aa82e1331fe5df4a8.png",
     "static/media/sax pattern.png": "/epk/static/media/sax pattern.764beeaa683742bd6c61.png",
+    "static/media/insta-icon.svg": "/epk/static/media/insta-icon.4b7be4499c3eb9860143a741b416f42c.svg",
+    "static/media/soundcloud-icon.svg": "/epk/static/media/soundcloud-icon.b28c2a42620af06230d927c4444ab481.svg",
+    "static/media/gmail-icon.svg": "/epk/static/media/gmail-icon.214f82c19026456b439fd2e12fd323a2.svg",
     "index.html": "/epk/index.html",
-    "main.9a1e6898.css.map": "/epk/static/css/main.9a1e6898.css.map",
-    "main.72204a5c.js.map": "/epk/static/js/main.72204a5c.js.map",
+    "main.16a27f92.css.map": "/epk/static/css/main.16a27f92.css.map",
+    "main.b5af36fb.js.map": "/epk/static/js/main.b5af36fb.js.map",
     "453.2c6adea3.chunk.js.map": "/epk/static/js/453.2c6adea3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a1e6898.css",
-    "static/js/main.72204a5c.js"
+    "static/css/main.16a27f92.css",
+    "static/js/main.b5af36fb.js"
   ]
 }
